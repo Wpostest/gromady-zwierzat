@@ -1,0 +1,68 @@
+html {
+	font-family: Verdana sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	background-color: sandybrown;
+	height: 120px;
+	width: 60%;
+	line-height: 120px;
+	float: left;
+}
+
+.logo-wrap {
+	background-color: sienna;
+	color: white;
+	text-align: center;
+	height: 120px;
+	width: 40%;
+	float: left;
+}
+
+.block {
+	height: 700px;
+}
+
+.block-left {
+	background-color: sienna;
+	color: white;
+	width: 60%;
+	float: left;
+}
+
+.block-right {
+	background-color: sandybrown;
+	width: 40%;
+	float: left;
+}
+
+.footer {
+	background-color: #4d1900;
+	color: white;
+	text-align: right;
+	clear: both;
+}
+
+.nav .nav__item {
+	background-color: green;
+	color: yellow;
+	padding: 20px 50px 20px 50px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.nav .nav__item:hover {
+	color: green;
+	background-color: yellow;
+}
+
+.nav__item--active {
+	color: red !important;
+}
